@@ -51,7 +51,7 @@ Once the local server starts, your web browser will automatically open the dashb
 
 ## 🗺️ Roadmap & Future Development
 
-**Multi Camera Integration:** Expanding the video capture logic to process parallel RTSP streams from multiple IP cameras simultaneously.
+**Multi Cam Integration:** Expanding the video capture logic to process parallel RTSP streams from multiple IP cameras simultaneously.
 
 **UI Enhancements:** Refining the Streamlit layout for better mobile responsiveness and optimizing the verification queue rendering.
 
