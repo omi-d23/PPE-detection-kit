@@ -184,11 +184,11 @@ if run_detection:
         cap.release()
 
 else:
-    if app_mode == "Dashboard (Admin)":
+    if app_mode == "Dashboard (Admin)"
         update_sidebar_active()
     else:
         st.info("System Paused.")
 
 
-    # Check For the UI fix as well
+    # Check For UI fix also
     #Have to work on multi-camera setup as well.
