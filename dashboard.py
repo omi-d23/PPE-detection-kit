@@ -145,9 +145,7 @@ if run_detection:
                 else:
                     color = (0, 255, 0) # Green for safe
                 
-                cv2.rectangle(annotated_frame, (x1, y1), (x2, y2), color, 2)
-                cv2.putText(annotated_frame, f"{label} {conf:.2f}", (x1, y1 - 10), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+            
 
             # C. Handle Violation
             if violation_type:
